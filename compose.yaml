@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: queueforge
+      POSTGRES_PASSWORD: queueforge_lab
+      POSTGRES_DB: queueforge
+    ports:
+      - "127.0.0.1:54325:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U queueforge -d queueforge"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
