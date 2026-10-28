@@ -120,8 +120,6 @@ The goal is to make the reasoning and evidence behind each design decision inspe
 
 QueueForge is the applied software project developed alongside **Backend & Distributed Systems Engineering**, a structured practical engineering course. This public repository focuses on the implementation, experiments, and technical evidence.
 
-The complete instructional course, including guided lessons, assessments, and supporting learning materials, is a separate work in development and may be offered commercially after completion. This repository should not be interpreted as the full course distribution.
-
 **Project case study:** [QueueForge on mylesh.dev](https://mylesh.dev/work/queueforge)
 
 ## License and use
